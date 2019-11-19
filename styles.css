@@ -178,4 +178,82 @@ span {
     padding: 17px 45px;
 }
 
+/* Info Section */
 
+.page__info {
+    background-color: #fff;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page__info-text {
+    width: 40%;
+}
+
+.page__info-picture {
+    width: 40%;
+}
+
+.info__image {
+    width: 100%;
+}
+
+.page__title::before {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: #212121;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.page__title {
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    opacity: 0.8;
+    letter-spacing: 4.52px;
+    margin-bottom: 5px;
+}
+
+.info__desc {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+/* Services Section */
+
+.page__services {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f6f6f6;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    opacity: 0.8;
+    letter-spacing: 4.52px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section__title::before {
+    content: '';
+    width: 50px;
+    height: 5px;
+    background-color: #212121;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
