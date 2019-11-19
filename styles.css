@@ -261,6 +261,9 @@ span {
     margin-top: 40px;
 }
 
+.portfolio__list {
+    margin-top: 30px;
+}
 .services__row {
     display: flex;
     justify-content: space-between;
@@ -290,9 +293,12 @@ span {
     font-weight: 500;
 }
 
-.page__skills {
+.section__spacing {
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+.page__skills {
     background-color: #fff;
 }
 
@@ -311,4 +317,32 @@ span {
 .skills__image-pic {
     width: 100%;
     height: 100%;
+}
+
+.skills__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.skills__icon {
+    width: 25%;
+}
+
+/* Portfolio section */
+.portfolio__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.portfolio__item {
+    width: 31%;
+}
+
+.portfolio__image {
+    width: 100%;
 }
