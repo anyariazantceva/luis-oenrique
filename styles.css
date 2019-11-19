@@ -218,7 +218,7 @@ span {
     text-transform: uppercase;
     color: #4d4d4d;
     opacity: 0.8;
-    letter-spacing: 4.52px;
+    letter-spacing: 4px;
     margin-bottom: 5px;
 }
 
@@ -243,7 +243,7 @@ span {
     text-transform: uppercase;
     color: #4d4d4d;
     opacity: 0.8;
-    letter-spacing: 4.52px;
+    letter-spacing: 4px;
     margin-bottom: 5px;
     text-align: center;
 }
@@ -254,6 +254,38 @@ span {
     height: 5px;
     background-color: #212121;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+}
+
+.services__list {
+    margin-top: 40px;
+}
+
+.services__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+}
+.services__icon {
+    width: 77px;
+    height: 77px;
+}
+
+.services__icon-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.services__item-title {
+    font-size: 20px;
+    color: #4d4d4d;
+    font-weight: 500;
 }
