@@ -289,3 +289,26 @@ span {
     color: #4d4d4d;
     font-weight: 500;
 }
+
+.page__skills {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #fff;
+}
+
+.skills__graph {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.skills__image {
+    width: 949px;
+    height: 336px;
+}
+
+.skills__image-pic {
+    width: 100%;
+    height: 100%;
+}
