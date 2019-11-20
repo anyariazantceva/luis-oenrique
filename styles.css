@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Asap', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     background-color: #f9f8f8;
     margin: 0;
     padding: 0;
@@ -22,14 +26,14 @@ h6,
 p,
 span {
     padding: 0;
-    margin: 0%;
+    margin: 0;
 }
 
 .container {
-    max-width: 1170px;
-    width: 1170px;
+    max-width: 117rem;
+    width: 117rem;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 4rem;
 }
 
 .page__first {
@@ -40,11 +44,11 @@ span {
 }
 
 .page__section {
-    padding: 0 60px;
+    padding: 0 6rem;
 }
 
 .page__header {
-    padding: 40px 0 10px;
+    padding: 4rem 0 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,9 +63,9 @@ span {
 }
 
 .logo__image {
-    padding-bottom: 5px;
-    width: 24px;
-    height: 24px;
+    padding-bottom: .5rem;
+    width: 2.4rem;
+    height: 2.4rem;
 }
 
 .logo__image-pic {
@@ -74,13 +78,13 @@ span {
 
 .logo__main-title {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: normal;
     letter-spacing: 2.4px;
 }
 
 .logo__second-title {
-    font-size: 8px;
+    font-size: .8rem;
     letter-spacing: 2.04px;
 }
 
@@ -99,7 +103,7 @@ span {
 .header__list-link {
     text-decoration: none;
     color: #7a7a7a;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     text-transform: uppercase;
     transition: text-decoration 5s;
@@ -135,13 +139,13 @@ span {
 }
 
 .about__main-title {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: bold;
     color: #4d4d4d;
 }
 
 .about__add-title {
-    font-size: 22px;
+    font-size: 2.2rem;
     color: #4d4d4d;
     opacity: 0.54;
     font-weight: 500;
@@ -153,7 +157,7 @@ span {
     background: transparent;
     outline: none;
     border: none;
-    padding: 10px;
+    padding: 1rem;
     vertical-align: middle;
 
 }
@@ -161,29 +165,29 @@ span {
 .btn-know {
     background-color: #fff;
     color: #4d4d4d;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 20px 29px 18px 30px;
-    margin-right: 20px;
-    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    padding: 2rem 2.9rem 1.8rem 3rem;
+    margin-right: 2rem;
+    box-shadow: 0 1.8rem 2.7rem 2px rgba(0, 0, 0, 0.1);
 }
 
 .btn-trans {
     border: 1px solid #4d4d4d;
     color: #4d4d4d;
-    font-size: 16px;
+    font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 17px 45px;
+    padding: 1.7rem 4.5rem;
 }
 
 /* Info Section */
 
 .page__info {
     background-color: #fff;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -204,17 +208,17 @@ span {
 
 .page__title::before {
     content: '';
-    width: 50px;
+    width: 5rem;
     height: 4px;
     background-color: #212121;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .page__title {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: bolder;
-    line-height: 35px;
+    line-height: 3.5rem;
     text-transform: uppercase;
     color: #4d4d4d;
     opacity: 0.8;
@@ -223,23 +227,23 @@ span {
 }
 
 .info__desc {
-    font-size: 14px;
-    line-height: 26px;
-    margin-bottom: 25px;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 2.5rem;
 }
 
 /* Services Section */
 
 .page__services {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     background-color: #f6f6f6;
 }
 
 .section__title {
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: bolder;
-    line-height: 35px;
+    line-height: 3.5rem;
     text-transform: uppercase;
     color: #4d4d4d;
     opacity: 0.8;
@@ -250,24 +254,24 @@ span {
 
 .section__title::before {
     content: '';
-    width: 50px;
+    width: 5rem;
     height: 5px;
     background-color: #212121;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 2rem;
 }
 
 .services__list {
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 .portfolio__list {
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 .services__row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .services__item {
@@ -278,8 +282,8 @@ span {
     width: 31%;
 }
 .services__icon {
-    width: 77px;
-    height: 77px;
+    width: 7.7rem;
+    height: 7.7rem;
 }
 
 .services__icon-pic {
@@ -288,14 +292,14 @@ span {
 }
 
 .services__item-title {
-    font-size: 20px;
+    font-size: 2rem;
     color: #4d4d4d;
     font-weight: 500;
 }
 
 .section__spacing {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
 }
 
 .page__skills {
@@ -306,12 +310,12 @@ span {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding-top: 40px;
+    padding-top: 4rem;
 }
 
 .skills__image {
-    width: 949px;
-    height: 336px;
+    width: 94.9rem;
+    height: 33.6rem;
 }
 
 .skills__image-pic {
@@ -336,7 +340,7 @@ span {
 .portfolio__row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .portfolio__item {
@@ -356,8 +360,8 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 20px;
-    margin-top: 30px;
+    padding: 7rem 2rem;
+    margin-top: 3rem;
 }
 
 .testimonials_info-about {
@@ -368,7 +372,7 @@ span {
 
 .testimonials__info-image {
     width: 20%;
-    height: 130px;
+    height: 13rem;
 }
 
 .testimonial__info-pic {
@@ -382,21 +386,21 @@ span {
 }
 
 .testimonials__text-title {
-    font-size: 30px;
+    font-size: 3rem;
     text-transform: uppercase;
     font-weight: 500;
 }
 
 .testimonials__text-subtitle {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: italic;
 }
 
 .testimonials__text-paragraph {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    line-height: 22px;
+    line-height: 2.2rem;
     opacity: 0.6;
 }
 
@@ -404,13 +408,13 @@ span {
     display: flex;
     justify-content: space-between;
     width: 4%;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 .testimonials__square {
     border: 1px solid #212121;
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .square__black {
