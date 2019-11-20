@@ -31,9 +31,10 @@ span {
 
 .container {
     max-width: 117rem;
-    width: 117rem;
+    width: 100%;
     margin: 0 auto;
     padding: 0 4rem;
+    overflow: hidden;
 }
 
 .page__first {
@@ -452,4 +453,89 @@ span {
 
 .features__title {
     text-transform: uppercase;
+}
+
+.section__form {
+    background: url(images/contact_bg.png) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title-white {
+    color: #ffffff;
+    font-size: 3.6rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section__title-white::before {
+    content: '';
+    width: 5rem;
+    height: 5px;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.page__form {
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.form__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.form__group {
+    width: 48%;
+}
+
+.form__label {
+    display: none;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.form__control {
+    display: block;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 1.8rem;
+    font-family: inherit;
+}
+
+.form__textarea {
+    width: 100%;
+
+}
+
+.form__text {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.form_submit {
+    background-color: #ffffff;
+    box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+
 }
