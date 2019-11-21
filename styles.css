@@ -315,7 +315,6 @@ span {
 
 .skills__image {
     width: 94.9rem;
-    height: 33.6rem;
 }
 
 .skills__image-pic {
@@ -574,3 +573,64 @@ span {
     font-size: 1.6rem;
 }
 
+
+/* Mobile and Laptop Styles */
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+
+    .about__info {
+        width: 60%;
+    }
+
+    .services__icon {
+        margin-bottom: 5px;
+    }
+
+    .testimonials__text-subtitle {
+        margin-bottom: 5px;
+    }
+
+    .footer__links {
+        width: 31%;
+    }
+
+    .footer__copyright {
+        width: 63%;
+    }
+
+    .testimonials__squares {
+        width: 6%;
+    }
+
+    .testimonials_info-about {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 38%;
+    }
+    .container {
+        padding: 0 2rem;
+    }
+
+    .btn-know {
+        padding: 1.5rem 2rem;
+    }
+
+    .btn-trans {
+        padding: 1.5rem 4rem;
+    }
+
+    .skills__graph {
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+    }
+}

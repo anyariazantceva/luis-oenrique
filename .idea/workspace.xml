@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7cdffad6-7e1a-446b-9365-ac62510d2285" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,27 +38,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2892" />
+          <entry key="css" value="3065" />
           <entry key="gitignore" value="23" />
           <entry key="html" value="1685" />
-          <entry key="txt" value="298" />
+          <entry key="txt" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2892" />
+          <entry key="CSS" value="3065" />
           <entry key="HTML" value="1685" />
-          <entry key="PLAIN_TEXT" value="321" />
+          <entry key="PLAIN_TEXT" value="345" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="2661">
               <caret line="291" column="63" selection-start-line="291" selection-start-column="63" selection-end-line="291" selection-end-column="63" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -82,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="561" column="24" selection-start-line="561" selection-start-column="24" selection-end-line="561" selection-end-column="24" />
+            <state relative-caret-position="245">
+              <caret line="630" column="5" lean-forward="true" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -113,8 +112,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
@@ -143,11 +142,6 @@
             <path>
               <item name="Layout_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Layout_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Layout_1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Layout_1" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +187,7 @@
       <workItem from="1574148616132" duration="10110000" />
       <workItem from="1574251182291" duration="6955000" />
       <workItem from="1574276851084" duration="372000" />
-      <workItem from="1574340063845" duration="1943000" />
+      <workItem from="1574340063845" duration="4283000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init">
       <created>1574148963170</created>
@@ -279,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574257560523</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished form and footer">
+      <created>1574342223008</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574342223009</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19380000" />
+    <option name="totallyTimeSpent" value="21720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -298,7 +299,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,7 +312,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -338,7 +339,8 @@
     <MESSAGE value="changed all pixels into rem" />
     <MESSAGE value="Section features" />
     <MESSAGE value="Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form" />
+    <MESSAGE value="Finished form and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished form and footer" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -348,16 +350,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="561" column="24" selection-start-line="561" selection-start-column="24" selection-end-line="561" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="2661">
           <caret line="291" column="63" selection-start-line="291" selection-start-column="63" selection-end-line="291" selection-end-column="63" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -376,6 +371,13 @@
             <element signature="n#div#3;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#form#0;n#section#7;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="630" column="5" lean-forward="true" selection-start-line="630" selection-start-column="5" selection-end-line="630" selection-end-column="5" />
         </state>
       </provider>
     </entry>
