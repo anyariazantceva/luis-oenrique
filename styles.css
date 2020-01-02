@@ -159,6 +159,7 @@ span {
     border: none;
     padding: 1rem;
     vertical-align: middle;
+    transition: transform 1s;
 
 }
 
@@ -167,6 +168,10 @@ span {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);/*Move down*/
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+}
+
+.btn:hover {
+    transform: translateY(3px);
 }
 
 .btn-know {
