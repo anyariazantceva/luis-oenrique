@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cdffad6-7e1a-446b-9365-ac62510d2285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +39,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaScript" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +82,7 @@
       <workItem from="1574681626516" duration="660000" />
       <workItem from="1574756699384" duration="3583000" />
       <workItem from="1577967334318" duration="470000" />
-      <workItem from="1578036719307" duration="4237000" />
+      <workItem from="1578036719307" duration="8036000" />
     </task>
     <task id="LOCAL-00001" summary="Project Init">
       <created>1574148963170</created>
@@ -201,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577967468060</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Made a smooth scroll between section and added scroll-top">
+      <created>1578041342684</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578041342684</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -234,13 +243,18 @@
     <MESSAGE value="mobile styles" />
     <MESSAGE value="addedd more mobile styles" />
     <MESSAGE value="Project built" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project built" />
+    <MESSAGE value="Made a smooth scroll between section and added scroll-top" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made a smooth scroll between section and added scroll-top" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1577967462195">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1578041340434">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577967462195" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578041340434" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1578042251273">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578042251273" />
   </component>
   <component name="masterDetails">
     <states>

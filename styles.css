@@ -678,9 +678,13 @@ span {
 
 @media screen and (max-width: 576px) {
     .header__menu {
-        width: 85%;
+        width: 100%;
+        display: none;
     }
 
+    .header__logo {
+        width: 100%;
+    }
     .header__list-link {
         font-size: 1.2rem;
     }
@@ -779,6 +783,15 @@ span {
 
     .footer__links {
         width: 80%;
+    }
+
+    #scroll-top {
+        bottom: 10px;
+        right: 12px;
+    }
+    #scroll-top svg {
+        width: 24px;
+        height: 24px;
     }
 
 }
