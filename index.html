@@ -26,10 +26,12 @@
                 <nav class="header__menu">
                     <ul class="header__list">
                         <li class="header__list-item"><a class="header__list-link" href="/">Home</a></li>
-                        <li class="header__list-item"><a class="header__list-link" href="/about">About</a></li>
-                        <li class="header__list-item"><a class="header__list-link" href="/service">Service</a></li>
-                        <li class="header__list-item"><a class="header__list-link" href="/portfolio">Portfolio</a></li>
-                        <li class="header__list-item"><a class="header__list-link" href="/portfolio">Contact</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#about">About</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#services">Services</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#skills">Skills</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#portfolio">Portfolio</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#testimonials">Testimonials</a></li>
+                        <li class="header__list-item"><a class="header__list-link" href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </header>
@@ -49,7 +51,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__section page__info">
+        <section id="about" class="page__section page__info">
             <div class="page__info-text">
                 <div class="page__title">
                     Know more about me
@@ -68,7 +70,7 @@
             </div>
         </section>
 
-        <section class="page__section page__services section__spacing">
+        <section class="page__section page__services section__spacing" id="services">
             <div class="section__title">
                 Services
             </div>
@@ -127,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__section page__skills section__spacing">
+        <section id="skills" class="page__section page__skills section__spacing">
             <div class="section__title">
                 My Skills
             </div>
@@ -155,7 +157,7 @@
             </div>
         </section>
 
-        <section class="page__section page__portfolio section__spacing">
+        <section id="portfolio" class="page__section page__portfolio section__spacing">
             <div class="section__title">
                 Portfolio
             </div>
@@ -185,12 +187,12 @@
             </div>
         </section>
 
-        <section class="page__section page__testimonials section__spacing">
+        <section id="testimonials" class="page__section page__testimonials section__spacing">
             <div class="section__title">
                 Testimonials
             </div>
 
-            <div class="testimonials__info">
+            <div  class="testimonials__info">
                 <div class="testimonials_info-about">
                     <div class="testimonials__info-image">
                         <img src="images/avatar.png" alt="avatar" class="testimonial__info-pic">
@@ -243,7 +245,7 @@
                 </div>
             </div>
         </section>
-        <section class="page__section section__form section__spacing">
+        <section id="contacts" class="page__section section__form section__spacing">
             <div class="section__title-white">
                 Say Hello!
             </div>
@@ -294,6 +296,20 @@
             </footer>
         </section>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <button onclick="topFunction()" id="scroll-top" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+             width="40" height="40"
+             viewBox="0 0 172 172"
+             style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#ffffff">
+                <path d="M86,8.0625c-20.82812,0 -40.44687,8.0625 -55.09375,22.84375c-15.18437,15.18437 -22.84375,35.07188 -22.84375,55.09375c0,20.02188 7.65937,39.90937 22.84375,55.09375c14.78125,14.78125 34.26563,22.84375 55.09375,22.84375c20.82813,0 40.44687,-8.0625 55.09375,-22.84375c30.36875,-30.36875 30.36875,-79.81875 0,-110.1875c-14.64688,-14.78125 -34.26562,-22.84375 -55.09375,-22.84375zM86,16.125c18.67813,0 36.14792,7.2552 49.45105,20.42395c13.57188,13.70625 20.42395,31.57917 20.42395,49.45105c0,17.87188 -6.85208,35.7448 -20.42395,49.45105c-13.30312,13.16875 -30.77292,20.42395 -49.45105,20.42395c-18.67812,0 -36.14792,-7.2552 -49.45105,-20.42395c-27.14375,-27.27812 -27.14375,-71.62397 0,-98.9021c13.30312,-13.16875 30.77292,-20.42395 49.45105,-20.42395zM85.95013,55.09375c-1.02461,0 -2.03242,0.40365 -2.77148,1.2099l-20.15625,20.15625c-0.80625,0.80625 -1.2099,1.74635 -1.2099,2.82135c0,1.075 0.40365,2.0151 1.2099,2.82135c1.6125,1.6125 4.16457,1.6125 5.6427,0l13.30365,-13.30365v41.38855c0,2.28437 1.74688,4.03125 4.03125,4.03125c2.28437,0 4.03125,-1.74688 4.03125,-4.03125v-41.38855l13.30365,13.30365c1.6125,1.6125 4.16457,1.6125 5.6427,0c1.6125,-1.6125 1.6125,-4.16457 0,-5.6427l-20.15625,-20.15625c-0.80625,-0.80625 -1.84661,-1.2099 -2.87121,-1.2099z"></path>
+                </g>
+            </g>
+        </svg>
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
