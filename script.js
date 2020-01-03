@@ -14,7 +14,10 @@ window.scrollBy({
 
 let scrollBtn = document.getElementById("scroll-top");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+    scrollFunction()
+};
+
 function scrollFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         scrollBtn.style.display = "block";
@@ -26,7 +29,7 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-
+}
 
 $(document).ready(function(){
     $('.page__slider').slick({
